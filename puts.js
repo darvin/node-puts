@@ -1,13 +1,12 @@
-//     treeify.js
-//     Luke Plaster <notatestuser@gmail.com>
-//     https://github.com/notatestuser/treeify.js
+//     puts.js
+//     Sergey Klimov <sergey.v.klimov@gmail.com>
+//     https://github.com/darvin/node-puts
 
 (function() {
   var treefy = require('treeify');
-  exports = function(obj) {
-    console.log(treefy.as)
+  module.exports = function(obj) {
+    console.log(treefy.asTree(true,true));
   };
   
 
 })();
-

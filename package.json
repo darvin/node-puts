@@ -1,6 +1,6 @@
 {
   "name": "puts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Puts for Node! Pretty prints object into console",
   "main": "puts.js",
   "scripts": {
