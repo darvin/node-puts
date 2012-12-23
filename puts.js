@@ -5,8 +5,13 @@
 (function() {
   var treefy = require('treeify');
   module.exports = function(obj) {
-    console.log(treefy.asTree(true,true));
+    var result = treefy.asTree(obj, true,true);
+    if (!result) {
+      console.log(obj);
+    } else {
+      console.log(result);
+    }
   };
-  
+
 
 })();
