@@ -17,7 +17,7 @@
     "debug"
   ],
   "dependencies" : {
-    "treefy":"git://github.com/darvin/node-treeify.git"
+    "treeify":"git://github.com/darvin/node-treeify.git"
   },
   "author": "Sergey Klimov <sergey.v.klimov@gmail.com>",
   "license": "BSD",
